@@ -26,16 +26,19 @@
 python -m venv venv
 source venv/bin/activate       # Trên Linux/Mac
 venv\Scripts\activate          # Trên Windows
+```
 
 ### 2. Cài đặt các thư viện cần thiết
 
 ```bash
 pip install torch transformers datasets streamlit pandas
+```
 
 ### 3. Chạy app
 
 ```bash
 streamlit run app.py
+```
 
 ### 4. Cấu trúc thư mục khuyến nghị
 
@@ -47,4 +50,4 @@ text-summary-project/
 ├── model.py                # Script huấn luyện mô hình (hoặc notebook)
 ├── data.csv                # Dữ liệu huấn luyện (2 cột: văn bản, tóm tắt)
 └── README.md               # File hướng dẫn
- 
+```
