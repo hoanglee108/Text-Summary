@@ -1,10 +1,10 @@
-# 📝 Text Summarization App (Vietnamese)
+# Text Summarization App (Vietnamese)
 
 Ứng dụng này sử dụng mô hình **ViT5 (VietAI)** đã được fine-tune để tạo tóm tắt tự động cho văn bản tiếng Việt. Giao diện người dùng được xây dựng với **Streamlit**, giúp bạn dễ dàng nhập văn bản và nhận kết quả tóm tắt nhanh chóng.
 
 ---
 
-## 🚀 Cách Hoạt Động
+## Cách Hoạt Động
 
 1. **Huấn luyện mô hình**:
    - Dữ liệu gồm 2 cột: `văn bản` (nội dung cần tóm tắt) và `tóm tắt` (tóm tắt tương ứng).
@@ -18,7 +18,7 @@
 
 ---
 
-## ⚙️ Cài Đặt
+## Cài Đặt
 
 ### 1. Tạo môi trường Python (nên dùng Python 3.9+)
 
